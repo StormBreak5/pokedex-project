@@ -1,8 +1,29 @@
 .sidebarContainer {
     width: 10rem;
+    height: max-content;
+
+    border-right: 1px solid #d3d3d3;
 }
 
 .sidebarContent {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    margin-top: 3rem;
+
+    a {
+        font: 1.125rem 'Inter', sans-serif;
+        font-weight: 600;   
+        transition: color 0.2s;
+
+        &:hover {
+            color: #FF5B5B;
+        }     
+    }
+    
+
+    a + a{
+        margin-top: 1.5rem;
+    }
 }
