@@ -5,7 +5,9 @@ import styles from '../styles/Home.module.scss'
 
 const Home: NextPage = () => {
   return (
-    <h1></h1>
+    <Head>
+      <title>Pokédex</title>
+    </Head>
   )
 }
 
