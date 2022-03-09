@@ -10,6 +10,7 @@
 .pokemons {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 
 .pokemonContainer {
@@ -31,10 +32,12 @@
 
   img {
     width: 8rem;
+    height: 8rem;
     margin-top: 0.5rem;
   }
 
   strong {
     margin: 0.5rem 0;
+    text-transform: capitalize;
   }
 }
