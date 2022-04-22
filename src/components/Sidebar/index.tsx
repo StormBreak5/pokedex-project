@@ -1,13 +1,8 @@
 import Link from 'next/link'
 import styles from './styles.module.scss'
 
-export default function Sidebar(props) {
+export default function Sidebar(props: any) {
     const { handleRegion } = props
-    // function fetchKantoPokemon() {
-    //     fetch(`https://pokeapi.co/api/v2/pokemon?limit=151`)
-    //         .then(response => response.json())
-    //         .then(allpokemon => console.log(allpokemon))
-    // }
 
     return (
         <>

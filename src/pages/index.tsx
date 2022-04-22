@@ -54,7 +54,10 @@ const Home: NextPage = (props) => {
             return (
               <li key={pokemon.id} className={styles.pokemonContainer}>
                 <div className={styles.pokemonContent}>
-                  <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonIndex}.png`} alt={pokemon.name} />
+                  <img
+                    src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonIndex}.png`}
+                    alt={pokemon.name}
+                  />
                   <strong>{pokemon.name}</strong>
                 </div>
               </li>
